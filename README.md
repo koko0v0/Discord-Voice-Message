@@ -18,20 +18,23 @@ This Python script enables the automatic uploading and sending of voice messages
 ## Installation
 1. Clone this repository or download the script.
 2. Install the required Python libraries:
-   ```bash
-   pip install requests
+``` bash
+pip install requests
+```
 
 ## Setup
 Before using the script, you need to set your Discord bot token:
 1. Obtain a Discord bot token from the Discord Developer Portal.
 2. In the script, replace TOKEN = None [line 4] with your bot token, like this:
-    ```python
-    TOKEN = "your_discord_bot_token_here"
+```python
+TOKEN = "your_discord_bot_token_here"
+```
 
 ## Usage
 To use the script, simply run it with Python and provide the necessary parameters:
-    ```bash
-    python voice_message.py
+``` bash
+python voice_message.py
+```
 
 ## Functions
 - upload_voice_message(channel_id, audio_file_path): Uploads a voice message to the specified Discord channel.
@@ -49,4 +52,4 @@ The original idea for this project was contributed by a member @LostMyInfo<lostm
 
 ## License
 ---
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
